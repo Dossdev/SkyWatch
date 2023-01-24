@@ -1,0 +1,240 @@
+html {
+    font-size: 16px;
+}
+body {
+    color: #FCF6F5;
+    font-size: 1rem;
+    background: #7b9acc;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.weather-title{
+    color: #FCF6F5;
+    font-size: 3rem;
+}
+
+.name-title{
+    color: white;
+    font-size: 1rem;
+}
+
+.row {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    
+}
+
+.icon-target1{
+    margin: 50% 50% 50% 30% ;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+input {
+    border: none;
+}
+
+/* ===========================================================================
+    HEADER
+   ===========================================================================
+*/
+
+.header .row {
+    text-align: center;
+}
+
+.header__search, .header__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.header__geolocate {
+    margin-right: .8rem;
+}
+.header__form input {
+    padding: 0.575rem 0.75rem;
+    color: #7b9acc;
+    width: 100%;
+}
+
+.header__form button {
+    padding: 0.375rem 0.75rem;
+    border: 5;
+    background: #7b9acc;
+}
+
+@media screen and (min-width: 100px) {
+    .header .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+/* ===========================================================================
+    Botoes
+   ===========================================================================
+*/
+button.btn {
+    background-image: linear-gradient(to right, #7b9acc 0%, #7b9acc  51%, #FCF6F5  100%);
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border-radius: 20%; 
+  }
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+  [type="search"] {
+    margin: 1px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 1000px; 
+    height: 45px; 
+  }
+ 
+/* ===========================================================================
+    Weather
+   ===========================================================================
+*/
+
+.weather {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.weather__message {
+    padding-top: 7rem;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 1.5rem;
+}
+.weather .location {
+    color: #FCF6F5;
+}
+
+.weather__summary {
+    margin-top: 3rem;
+}
+
+.weather__summary .weather-icon {
+    font-size: 3rem;
+    margin-right: 1.4rem;
+}
+
+.weather__celsius-value {
+    font-size: 5rem;
+}
+.weather__celsius-value  .wi-celsius {
+    font-size: 8rem;
+    vertical-align: middle;
+}
+
+.weather__miscellaneous{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+
+.weather__miscellaneous li:first-child {
+    margin-right: 2rem;
+}
+
+.weather__miscellaneous span {
+    color: #FCF6F5;
+    margin-left: 1rem;
+}
+
+
+/* ===========================================================================
+    Forecast
+   ===========================================================================
+*/
+
+.forecast {
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+}
+.forecast .row {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.forecast__day {
+    text-align: center;
+    /* padding: 1rem 5rem; */
+    margin-bottom: .8rem;
+    flex: 1 0 100%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.forecast__date {
+    font-size: 1.3rem;
+}
+.forecast__icon {
+    font-size: 3.7rem;
+}
+
+.forecast__temp {
+    font-size: 1.8rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .forecast__day {
+        margin-right: 1rem;
+        flex: 1 1 15%;
+    }
+}
+
+           
+  
+  
+ 
