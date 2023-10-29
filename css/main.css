@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
 }
+
 body {
     color: #FCF6F5;
     font-size: 1rem;
@@ -14,12 +15,12 @@ ul {
     list-style: none;
 }
 
-.weather-title{
+.weather-title {
     color: #FCF6F5;
     font-size: 3rem;
 }
 
-.name-title{
+.name-title {
     color: white;
     font-size: 1rem;
 }
@@ -34,11 +35,11 @@ ul {
     height: 20px;
     width: 20px;
     fill: #fff;
-    
+
 }
 
-.icon-target1{
-    margin: 50% 50% 50% 30% ;
+.icon-target1 {
+    margin: 50% 50% 50% 30%;
 }
 
 a {
@@ -59,7 +60,8 @@ input {
     text-align: center;
 }
 
-.header__search, .header__form {
+.header__search,
+.header__form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +71,7 @@ input {
 .header__geolocate {
     margin-right: .8rem;
 }
+
 .header__form input {
     padding: 0.575rem 0.75rem;
     color: #7b9acc;
@@ -83,49 +86,52 @@ input {
 
 @media screen and (min-width: 100px) {
     .header .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 }
+
 /* ===========================================================================
     Botoes
    ===========================================================================
 */
 button.btn {
-    background-image: linear-gradient(to right, #7b9acc 0%, #7b9acc  51%, #FCF6F5  100%);
+    background-image: linear-gradient(to right, #7b9acc 0%, #7b9acc 51%, #FCF6F5 100%);
     margin: 5px;
     padding: 10px 20px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-    border-radius: 20%; 
-  }
-  .btn-grad:hover {
-    background-position: right center; 
+    border-radius: 20%;
+}
+
+.btn-grad:hover {
+    background-position: right center;
     color: #fff;
     text-decoration: none;
-  }
-  [type="search"] {
+}
+
+[type="search"] {
     margin: 1px;
     padding: 10px 20px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-    width: 1000px; 
-    height: 45px; 
-  }
- 
+    width: 1000px;
+    height: 45px;
+}
+
 /* ===========================================================================
     Weather
    ===========================================================================
@@ -143,6 +149,7 @@ button.btn {
     line-height: 1.4;
     font-size: 1.5rem;
 }
+
 .weather .location {
     color: #FCF6F5;
 }
@@ -159,12 +166,13 @@ button.btn {
 .weather__celsius-value {
     font-size: 5rem;
 }
-.weather__celsius-value  .wi-celsius {
+
+.weather__celsius-value .wi-celsius {
     font-size: 8rem;
     vertical-align: middle;
 }
 
-.weather__miscellaneous{
+.weather__miscellaneous {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -191,28 +199,31 @@ button.btn {
     margin-top: 5rem;
     margin-bottom: 20rem;
 }
+
 .forecast .row {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .forecast__day {
     text-align: center;
     /* padding: 1rem 5rem; */
     margin-bottom: .8rem;
     flex: 1 0 100%;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 8px );
-    -webkit-backdrop-filter: blur( 8px );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
 }
 
 .forecast__date {
     font-size: 1.3rem;
 }
+
 .forecast__icon {
     font-size: 3.7rem;
 }
@@ -233,8 +244,3 @@ button.btn {
         flex: 1 1 15%;
     }
 }
-
-           
-  
-  
- 
